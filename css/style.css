@@ -1,0 +1,168 @@
+body {
+  background: gray;
+  margin: 0 auto;
+  padding: 0;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.players {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  border: 1px solid silver;
+  height: 200px;
+}
+
+.players .for_player_mek .for_img_mek {
+  width: 160px;
+  height: 160px;
+}
+
+.players .for_player_mek .for_img_mek img {
+  width: 100%;
+  height: 100%;
+}
+
+.players .for_player_mek #for_name_mek {
+  font-size: 2.5vw;
+  font-weight: 700;
+  color: #fff;
+  text-align: center;
+}
+
+@media screen and (max-width: 730px) {
+  .players .for_player_mek #for_name_mek {
+    font-size: 3.5vw !important;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .players .for_player_mek #for_name_mek {
+    font-size: 4.5vw !important;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .players .for_player_mek #for_name_mek {
+    font-size: 5vw !important;
+  }
+}
+
+.players .for_player_erku .for_img_erku {
+  width: 160px;
+  height: 160px;
+}
+
+.players .for_player_erku .for_img_erku img {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+}
+
+.players #for_name_erku {
+  font-size: 2.5vw;
+  font-weight: 700;
+  color: #fff;
+  text-align: center;
+}
+
+@media screen and (max-width: 730px) {
+  .players #for_name_erku {
+    font-size: 3.5vw !important;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .players #for_name_erku {
+    font-size: 4.5vw !important;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .players #for_name_erku {
+    font-size: 5vw !important;
+  }
+}
+
+.for_btn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 5vw;
+}
+
+.for_btn .mec_btn {
+  border: 1px solid red;
+  width: 270px;
+  height: 270px;
+}
+
+.for_btn .mec_btn #game {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.for_btn .mec_btn #game .btn {
+  width: 90px;
+  height: 90px;
+  font-size: 1.7vw;
+}
+
+.for_btn .mec_btn #game .btn:disabled {
+  background: #fff;
+  border: 1px solid gray;
+}
+
+.plynow {
+  border: 3px solid #000;
+  height: 35px;
+}
+
+.plynow #btn_plynow {
+  width: 100%;
+  height: 100%;
+  font-size: 2vw;
+  color: red;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 730px) {
+  .plynow #btn_plynow {
+    font-size: 2.5vw !important;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .plynow #btn_plynow {
+    font-size: 3.5vw !important;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .plynow #btn_plynow {
+    font-size: 4vw !important;
+  }
+}
+
+#winner {
+  width: 100%;
+  height: 40px;
+  background: silver;
+  color: #000;
+  text-align: center;
+  font-size: 24px;
+  font-weight: 500;
+}
+
+#center {
+  font-size: 1.7vw;
+}
+/*# sourceMappingURL=style.css.map */
